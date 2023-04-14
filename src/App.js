@@ -16,6 +16,7 @@ function App() {
         <Router>
           <Switch>
             <Route component={CandleStick} path="/" exact />
+            <Route component={CandleStick} path="/candlestisk" exact />
             {/* <Route component={Lines} path="/lines" />
             <Route component={Bars} path="/bars" />
             <Route component={Pie} path="/pie" />
