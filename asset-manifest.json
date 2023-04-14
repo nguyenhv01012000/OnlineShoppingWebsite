@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/candlestisk/static/css/main.8be6aa84.chunk.css",
-    "main.js": "/candlestisk/static/js/main.4125c915.chunk.js",
-    "main.js.map": "/candlestisk/static/js/main.4125c915.chunk.js.map",
+    "main.js": "/candlestisk/static/js/main.01676530.chunk.js",
+    "main.js.map": "/candlestisk/static/js/main.01676530.chunk.js.map",
     "runtime-main.js": "/candlestisk/static/js/runtime-main.f01c72f1.js",
     "runtime-main.js.map": "/candlestisk/static/js/runtime-main.f01c72f1.js.map",
     "static/js/2.e7e11b55.chunk.js": "/candlestisk/static/js/2.e7e11b55.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f01c72f1.js",
     "static/js/2.e7e11b55.chunk.js",
     "static/css/main.8be6aa84.chunk.css",
-    "static/js/main.4125c915.chunk.js"
+    "static/js/main.01676530.chunk.js"
   ]
 }
