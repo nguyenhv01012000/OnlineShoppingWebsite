@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "64c618be8ebca20e88d2d97f"
+  },
+  "chatContent": [
+    {
+      "text": "Chào shop",
+      "time": "2023-07-30T08:01:02.577Z"
+    },
+    {
+      "text": "Cho mình hỏi",
+      "time": "2023-07-30T08:01:17.315Z"
+    },
+    {
+      "fromAdmin": true,
+      "text": "Chào bạn",
+      "time": "2023-07-30T08:01:36.387Z"
+    },
+    {
+      "fromAdmin": true,
+      "text": "Sober shop, có thể giúp gì được cho bạn ạ",
+      "time": "2023-07-30T08:01:54.919Z"
+    }
+  ],
+  "userInfo": {
+    "_id": "64c610256f4c4836586350cb",
+    "userAvt": "http://localhost:4000/images/de45edb35a464f4aaed6997a1adacd8f",
+    "userName": "Chu Thị Thúy",
+    "userTinh": "Tỉnh Hưng Yên",
+    "userHuyen": "Huyện Thái Thụy",
+    "userAddress": "123 Khoái Châu",
+    "userPhone": "4564654654564",
+    "userEmail": "thuy@gmail.com",
+    "userPassword": "$2b$10$NhSLgwn6QY3WKefaq7giiOI1mzNH3qjmD6yfdSx3ctuQPXtc673xK",
+    "userRole": "user",
+    "userCreateDay": "2023-07-30T07:24:21.340Z"
+  },
+  "sessionId": "64c610256f4c4836586350cb",
+  "chatName": "Chu Thị Thúy",
+  "chatEmail": "thuy@gmail.com"
+}]

@@ -1,0 +1,145 @@
+[{
+  "_id": {
+    "$oid": "64578dae0082621f6ca1aa40"
+  },
+  "noticeContent": "You have new order from Dương Bảo Nam",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-05-07T11:38:22.076Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c4c3ed7ee29735b0ca6d14"
+  },
+  "noticeContent": "You have new message from Dương Bảo Nam",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-29T07:46:53.908Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c4ca1964260c2e7cc62a46"
+  },
+  "noticeContent": "You have new order from Dương Bảo Nam",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-29T08:13:13.471Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c4d20064260c2e7cc62e13"
+  },
+  "noticeContent": "You have new order from Dương Bảo Nam",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-29T08:46:56.676Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c4d42264260c2e7cc62fe7"
+  },
+  "noticeContent": "You have new order from Dương Bảo Nam",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-29T08:56:02.902Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c4d42364260c2e7cc62fef"
+  },
+  "noticeContent": "You have new order from Dương Bảo Nam",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-29T08:56:03.304Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c4d93264260c2e7cc634a4"
+  },
+  "noticeContent": "You have new order from Dương Bảo Nam",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-29T09:17:38.620Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c4e43d64260c2e7cc637ec"
+  },
+  "noticeContent": "You have new order from Dương Bảo Nam",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-29T10:04:45.981Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c617d68ebca20e88d2d804"
+  },
+  "noticeContent": "You have new order from Phạm Đức Toàn",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-30T07:57:10.003Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c618028ebca20e88d2d87c"
+  },
+  "noticeContent": "You have new order from Hoàng Văn Nguyên",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-30T07:57:54.925Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c618038ebca20e88d2d888"
+  },
+  "noticeContent": "You have new order from Hoàng Văn Nguyên",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-30T07:57:55.816Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c618128ebca20e88d2d8be"
+  },
+  "noticeContent": "You have new order from Hoàng Văn Nguyên",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-30T07:58:10.589Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c6182a8ebca20e88d2d8fc"
+  },
+  "noticeContent": "You have new order from Chu Thị Thúy",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-30T07:58:34.342Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c618cd8ebca20e88d2d985"
+  },
+  "noticeContent": "You have new message from Chu Thị Thúy",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-30T08:01:17.320Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c619078ebca20e88d2d9b7"
+  },
+  "noticeContent": "You have new order from Chu Thị Thúy",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-30T08:02:15.432Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c61d0432906e2eb8f16a91"
+  },
+  "noticeContent": "You have new order from Hoàng Văn Nguyên",
+  "isRead": "true",
+  "noticeTime": {
+    "$date": "2023-07-30T08:19:16.910Z"
+  }
+}]

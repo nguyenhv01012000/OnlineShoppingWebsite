@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "5fa6136d3be7973774261918"
+  },
+  "userAvt": "http://localhost:4000/images/ba89bc47390d49442021ae007c95a326",
+  "userName": "Admin",
+  "userTinh": "Thành phố Hà Nội",
+  "userHuyen": "Quận Hai Bà Trưng",
+  "userEmail": "admin@gmail.com",
+  "userPassword": "$2b$10$Xr6wE/BwpJJoeICBig73Uub0sxJMvYLSoJB8L5ndo65Ns0zARZU4e",
+  "userPhone": "123456789",
+  "userAddress": "233 bui thi xuan",
+  "userRole": "admin"
+},{
+  "_id": {
+    "$oid": "64c60f466f4c483658635082"
+  },
+  "userAvt": "http://localhost:4000/images/63d78ac907367adb44207a57810c78f1",
+  "userName": "Hoàng Văn Nguyên",
+  "userTinh": "Thành phố Hà Nội",
+  "userHuyen": "Quận Hai Bà Trưng",
+  "userAddress": "63 phương mai",
+  "userPhone": "0359222496",
+  "userEmail": "nguyen@gmail.com",
+  "userPassword": "$2b$10$KpvfeVz5DJfIwc79/XJvOOWJiNAT4RKW1t69KNLSeQGdQAKxzb3Ba",
+  "userRole": "user",
+  "userCreateDay": {
+    "$date": "2023-07-30T07:20:38.310Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c610256f4c4836586350cb"
+  },
+  "userAvt": "http://localhost:4000/images/de45edb35a464f4aaed6997a1adacd8f",
+  "userName": "Chu Thị Thúy",
+  "userTinh": "Tỉnh Hưng Yên",
+  "userHuyen": "Huyện Thái Thụy",
+  "userAddress": "123 Khoái Châu",
+  "userPhone": "4564654654564",
+  "userEmail": "thuy@gmail.com",
+  "userPassword": "$2b$10$NhSLgwn6QY3WKefaq7giiOI1mzNH3qjmD6yfdSx3ctuQPXtc673xK",
+  "userRole": "user",
+  "userCreateDay": {
+    "$date": "2023-07-30T07:24:21.340Z"
+  }
+},{
+  "_id": {
+    "$oid": "64c611aa8ebca20e88d2d483"
+  },
+  "userAvt": "http://localhost:4000/images/b7047fab1e2631de8ae1021841e82ca5",
+  "userName": "Phạm Đức Toàn",
+  "userTinh": "Tỉnh Thái Bình",
+  "userHuyen": "Thành phố Phủ Lý",
+  "userAddress": "123 Trần Phú",
+  "userPhone": "1111112131232",
+  "userEmail": "toan@gmail.com",
+  "userPassword": "$2b$10$mcrxUo5afKyG9Ybc9.F6J.uzgJg.dLP/YySMrPGNErewQA1WVfEye",
+  "userRole": "user",
+  "userCreateDay": {
+    "$date": "2023-07-30T07:30:50.037Z"
+  }
+}]

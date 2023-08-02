@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "64c4f8edf257d402fc5a150a"
+  },
+  "subscriberEmail": "nguyenvklxxx@gmail.com",
+  "sendedEmail": [
+    {
+      "_id": {
+        "$oid": "64c4f8edf257d402fc5a150b"
+      },
+      "emailId": {
+        "$oid": "64c4f8edf257d402fc5a1509"
+      },
+      "isSeen": false
+    }
+  ]
+}]
