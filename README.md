@@ -3,7 +3,7 @@
 1. Clone the Repository and change directory
 
 ```
-git clone https://github.com/nguyenhv01012000/candlestisk
+git clone https://github.com/nguyenhv01012000/OnlineShoppingWebsite
 
 ```
 
