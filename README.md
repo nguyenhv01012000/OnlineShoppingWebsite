@@ -19,4 +19,15 @@ npm install
 npm start
 ```
 
+4. Deploy.
+
+```
+docker build -t shop-backend .
+docker container run -p 4000:4000  shop-backend  
+
+```
+docker build -t shop-frontend .
+docker  run -i -t -p 3000:3000  shop-frontend   
+```
+
 ## Shalom!

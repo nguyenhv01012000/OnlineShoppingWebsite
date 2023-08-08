@@ -454,13 +454,13 @@ export default function DashboardOrderCreate(props) {
                     <div className="flex-center" style={{marginTop: '40px'}}>
                         <button className="create-box-btn btn">
                             {
-                                order.orderStatus == "Comfirming" && "Comfirm Order"
+                                order?.orderStatus == "Comfirming" && "Comfirm Order"
                             }
                             {
-                                order.orderStatus == "Comfirmed" && "Delivery Order"
+                                order?.orderStatus == "Comfirmed" && "Delivery Order"
                             }
                             {
-                                order.orderStatus == "Delivering" && "Delivered Order"
+                                order?.orderStatus == "Delivering" && "Delivered Order"
                             }
                         </button>
                     </div>
