@@ -1,5 +1,5 @@
 import $ from 'jquery'; 
-export const HOST = 'http://localhost:4000';
+export const HOST = 'http://14.225.238.137:4141';
 
 export const APIs = {
   QR: HOST + '/order/zalo/createorder?ordertype=createorder',

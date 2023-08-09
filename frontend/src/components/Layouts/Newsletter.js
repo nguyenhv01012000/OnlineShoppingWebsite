@@ -15,7 +15,7 @@ export default function Newsletter () {
     }
     const handleOnSubmit = (event) => {
         event.preventDefault();
-        axios.post('http://localhost:4000/email', {
+        axios.post('http://14.225.238.137:4141/email', {
             subscriber: emailInput
         })
         .then(res => {

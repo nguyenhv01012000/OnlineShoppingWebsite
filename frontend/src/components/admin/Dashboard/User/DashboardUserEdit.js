@@ -36,7 +36,7 @@ export default function DashboardUserCreate(props) {
         formData.append("userRole", userRole);
         formData.append("fromAdmin", true)
 
-        axios.post(`http://localhost:4000/users/update/${user._id}`, formData, config)
+        axios.post(`http://14.225.238.137:4141/users/update/${user._id}`, formData, config)
         .then(()=>{
             props.setCloseEditFunc(false);
             props.setToastFunc(true);

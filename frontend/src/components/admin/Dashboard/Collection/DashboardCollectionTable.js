@@ -13,7 +13,7 @@ export default function DashboardCollectionTable(props) {
     const [constCollection, setConstCollection] = useState([])
     
     useEffect(()=>{
-        axios.get(`http://localhost:4000/collection`)
+        axios.get(`http://14.225.238.137:4141/collection`)
             .then(res => {
                 setCollection(res.data)
                 setConstCollection(res.data)
@@ -99,7 +99,7 @@ export default function DashboardCollectionTable(props) {
     }
 
     const deleteOnClick = (event) => {
-        axios.post(`http://localhost:4000/collection/delete/:${event.target.id}`, {
+        axios.post(`http://14.225.238.137:4141/collection/delete/:${event.target.id}`, {
             id: event.target.id
         })
         setCollection(collection.filter((item)=>{

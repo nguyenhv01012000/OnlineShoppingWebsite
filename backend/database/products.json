@@ -3,10 +3,10 @@
     "$oid": "5f997926624444cc7d7942b1"
   },
   "productImg": [
-    "http://localhost:4000/images/e1e5625dfdf7a348d12bbabe915b842a",
-    "http://localhost:4000/images/75d77a60dd07209eb9a9128b54f40fa7",
-    "http://localhost:4000/images/82d1b057c29ffa52f2b6913551a543a2",
-    "http://localhost:4000/images/df711e1409bcaa6a987145552d529810"
+    "http://14.225.238.137:4141/images/e1e5625dfdf7a348d12bbabe915b842a",
+    "http://14.225.238.137:4141/images/75d77a60dd07209eb9a9128b54f40fa7",
+    "http://14.225.238.137:4141/images/82d1b057c29ffa52f2b6913551a543a2",
+    "http://14.225.238.137:4141/images/df711e1409bcaa6a987145552d529810"
   ],
   "productSize": [
     "Small"
@@ -18,7 +18,7 @@
       "ratingText": "Sản phẩm tốt",
       "ratingEmail": "nguyen@gmail.com",
       "ratingStar": 4,
-      "ratingAvt": "http://localhost:4000/images/63d78ac907367adb44207a57810c78f1"
+      "ratingAvt": "http://14.225.238.137:4141/images/63d78ac907367adb44207a57810c78f1"
     },
     {
       "ratingName": "Hoàng Văn Nguyên",
@@ -26,7 +26,7 @@
       "ratingText": "Chất lượng tốt",
       "ratingEmail": "nguyen@gmail.com",
       "ratingStar": 5,
-      "ratingAvt": "http://localhost:4000/images/63d78ac907367adb44207a57810c78f1"
+      "ratingAvt": "http://14.225.238.137:4141/images/63d78ac907367adb44207a57810c78f1"
     },
     {
       "ratingName": "Phạm Đức Toàn",
@@ -34,7 +34,7 @@
       "ratingText": "Chất lượng không tốt",
       "ratingEmail": "toan@gmail.com",
       "ratingStar": 5,
-      "ratingAvt": "http://localhost:4000/images/b7047fab1e2631de8ae1021841e82ca5"
+      "ratingAvt": "http://14.225.238.137:4141/images/b7047fab1e2631de8ae1021841e82ca5"
     }
   ],
   "ratingImg": [],
@@ -55,11 +55,11 @@
     "$oid": "5fa67125f91457b89f0444e5"
   },
   "productImg": [
-    "http://localhost:4000/images/8722ff0eb5c3ae767ac801a6ab144883",
-    "http://localhost:4000/images/a427f694ab593c0a7f366b2770a9afab",
-    "http://localhost:4000/images/7ee2fb97297aa73364c9abf8ab932d9c",
-    "http://localhost:4000/images/45f49cf8e67ea0f3e13544a98d28a537",
-    "http://localhost:4000/images/decba7cf9df97466f9f0d0a762b3dfdd"
+    "http://14.225.238.137:4141/images/8722ff0eb5c3ae767ac801a6ab144883",
+    "http://14.225.238.137:4141/images/a427f694ab593c0a7f366b2770a9afab",
+    "http://14.225.238.137:4141/images/7ee2fb97297aa73364c9abf8ab932d9c",
+    "http://14.225.238.137:4141/images/45f49cf8e67ea0f3e13544a98d28a537",
+    "http://14.225.238.137:4141/images/decba7cf9df97466f9f0d0a762b3dfdd"
   ],
   "productSize": [
     "Small"
@@ -83,10 +83,10 @@
     "$oid": "5fa67181f91457b89f04450b"
   },
   "productImg": [
-    "http://localhost:4000/images/e788eb3c31a006127303c4b62026ffd7",
-    "http://localhost:4000/images/339364fab8e14ae88ab816e7ff909c25",
-    "http://localhost:4000/images/5eba5760957bb4368ecc0c9eb0ddadfa",
-    "http://localhost:4000/images/c8d9700add40092d1031b945555d45a8"
+    "http://14.225.238.137:4141/images/e788eb3c31a006127303c4b62026ffd7",
+    "http://14.225.238.137:4141/images/339364fab8e14ae88ab816e7ff909c25",
+    "http://14.225.238.137:4141/images/5eba5760957bb4368ecc0c9eb0ddadfa",
+    "http://14.225.238.137:4141/images/c8d9700add40092d1031b945555d45a8"
   ],
   "productSize": [
     "Small",
@@ -111,10 +111,10 @@
     "$oid": "5fa67192f91457b89f04451a"
   },
   "productImg": [
-    "http://localhost:4000/images/9962e41e54fa69605566a7c80e888bbc",
-    "http://localhost:4000/images/95f35d5eca7c964e88c9c2d467903f4c",
-    "http://localhost:4000/images/8f538abbd72ba33a79ae49478299d96e",
-    "http://localhost:4000/images/ea310d0e36555aeed654d4dbe2ccd26f"
+    "http://14.225.238.137:4141/images/9962e41e54fa69605566a7c80e888bbc",
+    "http://14.225.238.137:4141/images/95f35d5eca7c964e88c9c2d467903f4c",
+    "http://14.225.238.137:4141/images/8f538abbd72ba33a79ae49478299d96e",
+    "http://14.225.238.137:4141/images/ea310d0e36555aeed654d4dbe2ccd26f"
   ],
   "productSize": [
     "Small",
@@ -139,10 +139,10 @@
     "$oid": "5fa6719cf91457b89f044521"
   },
   "productImg": [
-    "http://localhost:4000/images/bbe56b37f44bdcd56660333535547b6e",
-    "http://localhost:4000/images/4c2c9a9f77cf18dfcdae129d0b7d9f94",
-    "http://localhost:4000/images/27a15ef859ec220aa4697a56783cffd8",
-    "http://localhost:4000/images/3240a5281907a409605c5aa403ed238f"
+    "http://14.225.238.137:4141/images/bbe56b37f44bdcd56660333535547b6e",
+    "http://14.225.238.137:4141/images/4c2c9a9f77cf18dfcdae129d0b7d9f94",
+    "http://14.225.238.137:4141/images/27a15ef859ec220aa4697a56783cffd8",
+    "http://14.225.238.137:4141/images/3240a5281907a409605c5aa403ed238f"
   ],
   "productSize": [
     "Medium",
@@ -155,7 +155,7 @@
       "ratingText": "Chất lượng không tốt",
       "ratingEmail": "nguyen@gmail.com",
       "ratingStar": 2,
-      "ratingAvt": "http://localhost:4000/images/63d78ac907367adb44207a57810c78f1"
+      "ratingAvt": "http://14.225.238.137:4141/images/63d78ac907367adb44207a57810c78f1"
     }
   ],
   "ratingImg": [],
@@ -176,9 +176,9 @@
     "$oid": "5fa671a6f91457b89f044529"
   },
   "productImg": [
-    "http://localhost:4000/images/9858df0365302b19972dd57cc81f7a5f",
-    "http://localhost:4000/images/2b2bb6e1dcf1d15632ec38374fe5b8de",
-    "http://localhost:4000/images/8de04bd0814b71a620898ee13d691419"
+    "http://14.225.238.137:4141/images/9858df0365302b19972dd57cc81f7a5f",
+    "http://14.225.238.137:4141/images/2b2bb6e1dcf1d15632ec38374fe5b8de",
+    "http://14.225.238.137:4141/images/8de04bd0814b71a620898ee13d691419"
   ],
   "productSize": [
     "Small",
@@ -191,7 +191,7 @@
       "ratingText": "Sản phẩm tốt",
       "ratingEmail": "nguyen@gmail.com",
       "ratingStar": 3.5,
-      "ratingAvt": "http://localhost:4000/images/63d78ac907367adb44207a57810c78f1"
+      "ratingAvt": "http://14.225.238.137:4141/images/63d78ac907367adb44207a57810c78f1"
     },
     {
       "ratingName": "Chu Thị Thúy",
@@ -199,7 +199,7 @@
       "ratingText": "Chất lượng không tốt",
       "ratingEmail": "thuy@gmail.com",
       "ratingStar": 5,
-      "ratingAvt": "http://localhost:4000/images/de45edb35a464f4aaed6997a1adacd8f"
+      "ratingAvt": "http://14.225.238.137:4141/images/de45edb35a464f4aaed6997a1adacd8f"
     }
   ],
   "ratingImg": [],
@@ -220,10 +220,10 @@
     "$oid": "5fa671adf91457b89f04452d"
   },
   "productImg": [
-    "http://localhost:4000/images/d87d6d867daa7894a90b107dc771a26a",
-    "http://localhost:4000/images/83f2998bd40a7662c225b053bbe52bd5",
-    "http://localhost:4000/images/178a1d03c1d7bc1f4681ea547ed06ee1",
-    "http://localhost:4000/images/d2cfaa317790ff67aedca1960c3b526f"
+    "http://14.225.238.137:4141/images/d87d6d867daa7894a90b107dc771a26a",
+    "http://14.225.238.137:4141/images/83f2998bd40a7662c225b053bbe52bd5",
+    "http://14.225.238.137:4141/images/178a1d03c1d7bc1f4681ea547ed06ee1",
+    "http://14.225.238.137:4141/images/d2cfaa317790ff67aedca1960c3b526f"
   ],
   "productSize": [
     "Small",
@@ -237,7 +237,7 @@
       "ratingText": "Sản phẩm tốt",
       "ratingEmail": "thuy@gmail.com",
       "ratingStar": 5,
-      "ratingAvt": "http://localhost:4000/images/de45edb35a464f4aaed6997a1adacd8f"
+      "ratingAvt": "http://14.225.238.137:4141/images/de45edb35a464f4aaed6997a1adacd8f"
     },
     {
       "ratingName": "Phạm Đức Toàn",
@@ -245,7 +245,7 @@
       "ratingText": "Chất lượng không tốt",
       "ratingEmail": "toan@gmail.com",
       "ratingStar": 3.5,
-      "ratingAvt": "http://localhost:4000/images/b7047fab1e2631de8ae1021841e82ca5"
+      "ratingAvt": "http://14.225.238.137:4141/images/b7047fab1e2631de8ae1021841e82ca5"
     }
   ],
   "ratingImg": [],
@@ -266,10 +266,10 @@
     "$oid": "5fa671bef91457b89f044534"
   },
   "productImg": [
-    "http://localhost:4000/images/dcb9edb9361981638335de2a28410c91",
-    "http://localhost:4000/images/295994711ba5540be2b3e82d2855f824",
-    "http://localhost:4000/images/0330eb42b6b81a7390cb3f5deeadfcf4",
-    "http://localhost:4000/images/2c95d93b382c4614aa10598fea7b64d0"
+    "http://14.225.238.137:4141/images/dcb9edb9361981638335de2a28410c91",
+    "http://14.225.238.137:4141/images/295994711ba5540be2b3e82d2855f824",
+    "http://14.225.238.137:4141/images/0330eb42b6b81a7390cb3f5deeadfcf4",
+    "http://14.225.238.137:4141/images/2c95d93b382c4614aa10598fea7b64d0"
   ],
   "productSize": [
     "Large"
@@ -281,7 +281,7 @@
       "ratingText": "Chất lượng không tốt",
       "ratingEmail": "toan@gmail.com",
       "ratingStar": 4,
-      "ratingAvt": "http://localhost:4000/images/b7047fab1e2631de8ae1021841e82ca5"
+      "ratingAvt": "http://14.225.238.137:4141/images/b7047fab1e2631de8ae1021841e82ca5"
     }
   ],
   "ratingImg": [],
@@ -302,10 +302,10 @@
     "$oid": "5fa671d4f91457b89f044541"
   },
   "productImg": [
-    "http://localhost:4000/images/29095924795763f04c3393b606c51591",
-    "http://localhost:4000/images/d6b8dfc53e332602bf7d40004c686a46",
-    "http://localhost:4000/images/6171121f00634253b64e064776ffb241",
-    "http://localhost:4000/images/2aab722e12e4c1bed617a381a7214be0"
+    "http://14.225.238.137:4141/images/29095924795763f04c3393b606c51591",
+    "http://14.225.238.137:4141/images/d6b8dfc53e332602bf7d40004c686a46",
+    "http://14.225.238.137:4141/images/6171121f00634253b64e064776ffb241",
+    "http://14.225.238.137:4141/images/2aab722e12e4c1bed617a381a7214be0"
   ],
   "productSize": [
     "Small"
@@ -317,7 +317,7 @@
       "ratingText": "Chất lượng không tốt",
       "ratingEmail": "toan@gmail.com",
       "ratingStar": 3.5,
-      "ratingAvt": "http://localhost:4000/images/b7047fab1e2631de8ae1021841e82ca5"
+      "ratingAvt": "http://14.225.238.137:4141/images/b7047fab1e2631de8ae1021841e82ca5"
     }
   ],
   "ratingImg": [],
@@ -338,9 +338,9 @@
     "$oid": "5fa671d4f91457b89f044544"
   },
   "productImg": [
-    "http://localhost:4000/images/5dee6d0920556fae6ee4564fdd3b6d1a",
-    "http://localhost:4000/images/2d97b3787a7f4e1e9f31e3345cec63e9",
-    "http://localhost:4000/images/3b84159b0ea0279b39e9d6d73082452d"
+    "http://14.225.238.137:4141/images/5dee6d0920556fae6ee4564fdd3b6d1a",
+    "http://14.225.238.137:4141/images/2d97b3787a7f4e1e9f31e3345cec63e9",
+    "http://14.225.238.137:4141/images/3b84159b0ea0279b39e9d6d73082452d"
   ],
   "productSize": [
     "Medium"
@@ -364,11 +364,11 @@
     "$oid": "5fabf6c6f91457b89f05082f"
   },
   "productImg": [
-    "http://localhost:4000/images/296dc79617c07399ba9db6ba355faf11",
-    "http://localhost:4000/images/01562548d516fef40582ee02b2993b14",
-    "http://localhost:4000/images/c39ef7e21247a6620852e8aa80be11f6",
-    "http://localhost:4000/images/10055a75f8a97943a2260019dbe7e76d",
-    "http://localhost:4000/images/8e4588acea75b80f527920ab67d8571c"
+    "http://14.225.238.137:4141/images/296dc79617c07399ba9db6ba355faf11",
+    "http://14.225.238.137:4141/images/01562548d516fef40582ee02b2993b14",
+    "http://14.225.238.137:4141/images/c39ef7e21247a6620852e8aa80be11f6",
+    "http://14.225.238.137:4141/images/10055a75f8a97943a2260019dbe7e76d",
+    "http://14.225.238.137:4141/images/8e4588acea75b80f527920ab67d8571c"
   ],
   "productSize": [
     "Small",
@@ -393,8 +393,8 @@
     "$oid": "5fb675ab993d7574061e67b4"
   },
   "productImg": [
-    "http://localhost:4000/images/9c8de606d585525f8bdc61e3a16e7e74",
-    "http://localhost:4000/images/e51928f446fae4ad3efacae4a26ede69"
+    "http://14.225.238.137:4141/images/9c8de606d585525f8bdc61e3a16e7e74",
+    "http://14.225.238.137:4141/images/e51928f446fae4ad3efacae4a26ede69"
   ],
   "productSize": [
     "Small",
@@ -408,7 +408,7 @@
       "ratingText": "Sản phẩm tốt",
       "ratingEmail": "thuy@gmail.com",
       "ratingStar": 3,
-      "ratingAvt": "http://localhost:4000/images/de45edb35a464f4aaed6997a1adacd8f"
+      "ratingAvt": "http://14.225.238.137:4141/images/de45edb35a464f4aaed6997a1adacd8f"
     }
   ],
   "productName": "Classic Topper",
@@ -428,8 +428,8 @@
     "$oid": "5fb675fa993d7574061e67b5"
   },
   "productImg": [
-    "http://localhost:4000/images/016e22a1a6a107b3b816e632cbea2c69",
-    "http://localhost:4000/images/d519906462961f69d686c96a37f1a6c5"
+    "http://14.225.238.137:4141/images/016e22a1a6a107b3b816e632cbea2c69",
+    "http://14.225.238.137:4141/images/d519906462961f69d686c96a37f1a6c5"
   ],
   "productSize": [
     "Small",
@@ -454,9 +454,9 @@
     "$oid": "5fb67676993d7574061e67b6"
   },
   "productImg": [
-    "http://localhost:4000/images/9fab6ea861af0db229d5b554db80d926",
-    "http://localhost:4000/images/ebe20ad877d7d3b3abbb5dfe2db49237",
-    "http://localhost:4000/images/90693fdc471ad30b9272b9edd10faa38"
+    "http://14.225.238.137:4141/images/9fab6ea861af0db229d5b554db80d926",
+    "http://14.225.238.137:4141/images/ebe20ad877d7d3b3abbb5dfe2db49237",
+    "http://14.225.238.137:4141/images/90693fdc471ad30b9272b9edd10faa38"
   ],
   "productSize": [
     "Small",
@@ -481,8 +481,8 @@
     "$oid": "5fb6771e993d7574061e67b7"
   },
   "productImg": [
-    "http://localhost:4000/images/3f7196c3ad831ac7463458e01550af54",
-    "http://localhost:4000/images/1acd30f39da76fa00695f7b23703ce16"
+    "http://14.225.238.137:4141/images/3f7196c3ad831ac7463458e01550af54",
+    "http://14.225.238.137:4141/images/1acd30f39da76fa00695f7b23703ce16"
   ],
   "productSize": [
     "Small"
@@ -505,8 +505,8 @@
     "$oid": "5fb67771993d7574061e67b8"
   },
   "productImg": [
-    "http://localhost:4000/images/d95355db47c9f213d7c24d83db95402e",
-    "http://localhost:4000/images/0f8697581b4ee7af030501359705d2ab"
+    "http://14.225.238.137:4141/images/d95355db47c9f213d7c24d83db95402e",
+    "http://14.225.238.137:4141/images/0f8697581b4ee7af030501359705d2ab"
   ],
   "productSize": [
     "Small",
@@ -530,9 +530,9 @@
     "$oid": "5fb68030993d7574061e67bb"
   },
   "productImg": [
-    "http://localhost:4000/images/4f50617c806e3438c6a32dfdd2abd24d",
-    "http://localhost:4000/images/688e50f76305cea018af1621d5e28887",
-    "http://localhost:4000/images/502b1076cd99c28c6c101f325156b90a"
+    "http://14.225.238.137:4141/images/4f50617c806e3438c6a32dfdd2abd24d",
+    "http://14.225.238.137:4141/images/688e50f76305cea018af1621d5e28887",
+    "http://14.225.238.137:4141/images/502b1076cd99c28c6c101f325156b90a"
   ],
   "productSize": [
     "Small",
@@ -557,9 +557,9 @@
     "$oid": "5fb680b5993d7574061e67bc"
   },
   "productImg": [
-    "http://localhost:4000/images/c6ebeadf5bcb05465697d10c518e010b",
-    "http://localhost:4000/images/44e54a29d295810d4476594a132576e6",
-    "http://localhost:4000/images/5332e48798c36273d97ecf2dc26cfd97"
+    "http://14.225.238.137:4141/images/c6ebeadf5bcb05465697d10c518e010b",
+    "http://14.225.238.137:4141/images/44e54a29d295810d4476594a132576e6",
+    "http://14.225.238.137:4141/images/5332e48798c36273d97ecf2dc26cfd97"
   ],
   "productSize": [
     "Small",
@@ -573,7 +573,7 @@
       "ratingText": "Sản phẩm tệ",
       "ratingEmail": "nguyen@gmail.com",
       "ratingStar": 1,
-      "ratingAvt": "http://localhost:4000/images/63d78ac907367adb44207a57810c78f1"
+      "ratingAvt": "http://14.225.238.137:4141/images/63d78ac907367adb44207a57810c78f1"
     },
     {
       "ratingName": "Hoàng Văn Nguyên",
@@ -581,7 +581,7 @@
       "ratingText": "Sản phẩm chất lượng thấp",
       "ratingEmail": "nguyen@gmail.com",
       "ratingStar": 2,
-      "ratingAvt": "http://localhost:4000/images/63d78ac907367adb44207a57810c78f1"
+      "ratingAvt": "http://14.225.238.137:4141/images/63d78ac907367adb44207a57810c78f1"
     }
   ],
   "productName": "Mini iconic Baguette bag",
@@ -601,9 +601,9 @@
     "$oid": "5fb68163993d7574061e67bd"
   },
   "productImg": [
-    "http://localhost:4000/images/9d69ae7f2e93ae19f7a998c24a0c6012",
-    "http://localhost:4000/images/9af5e5ae81452a39146138581207210c",
-    "http://localhost:4000/images/8d4b723f0b2210e5ddae3fa0f6c2bcf2"
+    "http://14.225.238.137:4141/images/9d69ae7f2e93ae19f7a998c24a0c6012",
+    "http://14.225.238.137:4141/images/9af5e5ae81452a39146138581207210c",
+    "http://14.225.238.137:4141/images/8d4b723f0b2210e5ddae3fa0f6c2bcf2"
   ],
   "productSize": [
     "Medium"
@@ -626,9 +626,9 @@
     "$oid": "5fb68216993d7574061e67be"
   },
   "productImg": [
-    "http://localhost:4000/images/b7b5ede137343293018ddeb1272c14ef",
-    "http://localhost:4000/images/8c0e1a8327695d320b0c87665c4ccef7",
-    "http://localhost:4000/images/427c2bb9ab036ede216f27e60568c7fe"
+    "http://14.225.238.137:4141/images/b7b5ede137343293018ddeb1272c14ef",
+    "http://14.225.238.137:4141/images/8c0e1a8327695d320b0c87665c4ccef7",
+    "http://14.225.238.137:4141/images/427c2bb9ab036ede216f27e60568c7fe"
   ],
   "productSize": [
     "Small",

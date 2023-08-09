@@ -35,7 +35,7 @@ export default function DashboardCollectionCreate(props) {
         });
         formData.append("collectionName", collectionName);
         formData.append('collectionItems', collectionItems);
-        axios.post('http://localhost:4000/collection', formData, config)
+        axios.post('http://14.225.238.137:4141/collection', formData, config)
         .then(()=>{
             props.setCloseCreateFunc(false);
             props.setToastFunc(true);
@@ -53,7 +53,7 @@ export default function DashboardCollectionCreate(props) {
     }
 
     useEffect(()=>{
-        axios.get(`http://localhost:4000/products`)
+        axios.get(`http://14.225.238.137:4141/products`)
             .then(res => {
                 setProduct(res.data)
             }

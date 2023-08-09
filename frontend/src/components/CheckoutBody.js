@@ -11,7 +11,7 @@ import QRCode from 'qrcode.react'
 import { APIs } from './ZaloPay/common';
 import $ from 'jquery';  
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "http://14.225.238.137:4141";
 
 function CheckoutBody(props) {
     
@@ -51,7 +51,7 @@ function CheckoutBody(props) {
             setPhoneInput(userInfo.userPhone)
             setAddressInput(userInfo.userAddress)
             if (userInfo.userTinh !== "") {
-                axios.get(`http://localhost:4000/vietnam`)
+                axios.get(`http://14.225.238.137:4141/vietnam`)
                     .then(res => {
                         setTinh(res.data[0].tinh)
                         setHuyen(res.data[0].huyen)
@@ -65,7 +65,7 @@ function CheckoutBody(props) {
                 )  
                 setUserTinh(userInfo.userTinh)
             } else {
-                axios.get(`http://localhost:4000/vietnam`)
+                axios.get(`http://14.225.238.137:4141/vietnam`)
                     .then(res => {
                         setTinh(res.data[0].tinh)
                         setHuyen(res.data[0].huyen) 
@@ -131,7 +131,7 @@ function CheckoutBody(props) {
                 alert("Your payment not yet confirmed!")
                 return
             } else {
-                axios.post('http://localhost:4000/order', data)
+                axios.post('http://14.225.238.137:4141/order', data)
                 setTimeout(()=>{ 
                     setConfirm(true)
                     document.body.style.overflow = 'hidden';
@@ -140,7 +140,7 @@ function CheckoutBody(props) {
                 }, 1000)
             }
         } else {
-            axios.post('http://localhost:4000/order', data)
+            axios.post('http://14.225.238.137:4141/order', data)
             setTimeout(()=>{ 
                 setConfirm(true)
                 document.body.style.overflow = 'hidden';

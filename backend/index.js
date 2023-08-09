@@ -25,7 +25,7 @@ var vietnamRoutes = require('./routes/vietnam');
 var todosRoutes = require('./routes/todos');
 var noticeRoutes = require('./routes/notice');
 
-mongoose.connect('mongodb+srv://nguyenhd01012000:yZldRox09ZpWOwhd@cluster0.r1ugjsg.mongodb.net/shop', {
+mongoose.connect('mongodb+srv://nguyenhd01012000:yZldRox09ZpWOwhd@cluster0.r1ugjsg.mongodb.net/shop1', {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true

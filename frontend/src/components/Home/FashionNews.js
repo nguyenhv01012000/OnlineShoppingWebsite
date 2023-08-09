@@ -10,7 +10,7 @@ export default function FashionNews(props) {
     const newsPerPage = 3;
 
     useEffect(() => {
-        axios.get(`http://localhost:4000/news`)
+        axios.get(`http://14.225.238.137:4141/news`)
             .then(res => {
                 setNews(res.data)
             }

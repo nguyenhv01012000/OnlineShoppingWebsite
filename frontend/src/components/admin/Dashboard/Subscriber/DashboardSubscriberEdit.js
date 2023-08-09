@@ -20,7 +20,7 @@ export default function DashboardSubscriberCreate(props) {
     const onSubmit = (event) => {
         event.preventDefault()
 
-        axios.post(`http://localhost:4000/email/update/${email._id}`, {
+        axios.post(`http://14.225.238.137:4141/email/update/${email._id}`, {
             subscriberEmail: subscriberEmail
         }).then(()=>{
             props.setCloseEditFunc(false);
