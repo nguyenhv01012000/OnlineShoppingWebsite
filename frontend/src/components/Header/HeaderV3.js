@@ -88,7 +88,7 @@ function HeaderV3(props) {
             },
         ]
         setNavBar(navBar)
-        axios.get(`http://14.225.238.137:4141/products`)
+        axios.get(`http://103.237.145.107:4141/products`)
             .then(res => {
                 let virtualNavBar = [...navBar]
                 const menProduct = []

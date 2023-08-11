@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "5fa6136d3be7973774261918"
   },
-  "userAvt": "http://14.225.238.137:4141/images/ba89bc47390d49442021ae007c95a326",
+  "userAvt": "http://103.237.145.107:4141/images/ba89bc47390d49442021ae007c95a326",
   "userName": "Admin",
   "userTinh": "Thành phố Hà Nội",
   "userHuyen": "Quận Hai Bà Trưng",
@@ -15,7 +15,7 @@
   "_id": {
     "$oid": "64c60f466f4c483658635082"
   },
-  "userAvt": "http://14.225.238.137:4141/images/63d78ac907367adb44207a57810c78f1",
+  "userAvt": "http://103.237.145.107:4141/images/63d78ac907367adb44207a57810c78f1",
   "userName": "Hoàng Văn Nguyên",
   "userTinh": "Thành phố Hà Nội",
   "userHuyen": "Quận Hai Bà Trưng",
@@ -31,7 +31,7 @@
   "_id": {
     "$oid": "64c610256f4c4836586350cb"
   },
-  "userAvt": "http://14.225.238.137:4141/images/de45edb35a464f4aaed6997a1adacd8f",
+  "userAvt": "http://103.237.145.107:4141/images/de45edb35a464f4aaed6997a1adacd8f",
   "userName": "Chu Thị Thúy",
   "userTinh": "Tỉnh Hưng Yên",
   "userHuyen": "Huyện Thái Thụy",
@@ -47,7 +47,7 @@
   "_id": {
     "$oid": "64c611aa8ebca20e88d2d483"
   },
-  "userAvt": "http://14.225.238.137:4141/images/b7047fab1e2631de8ae1021841e82ca5",
+  "userAvt": "http://103.237.145.107:4141/images/b7047fab1e2631de8ae1021841e82ca5",
   "userName": "Phạm Đức Toàn",
   "userTinh": "Tỉnh Thái Bình",
   "userHuyen": "Thành phố Phủ Lý",

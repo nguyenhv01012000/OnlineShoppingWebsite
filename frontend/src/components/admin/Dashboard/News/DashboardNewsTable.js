@@ -14,7 +14,7 @@ export default function DashboardNewsTable(props) {
     const [constNews, setConstNews] = useState([])
     
     useEffect(()=>{
-        axios.get(`http://14.225.238.137:4141/news`)
+        axios.get(`http://103.237.145.107:4141/news`)
             .then(res => {
                 setNews(res.data)
                 setConstNews(res.data)
@@ -100,7 +100,7 @@ export default function DashboardNewsTable(props) {
     }
 
     const deleteOnClick = (event) => {
-        axios.post(`http://14.225.238.137:4141/news/delete/:${event.target.id}`, {
+        axios.post(`http://103.237.145.107:4141/news/delete/:${event.target.id}`, {
             productId: event.target.id
         })
         setNews(news.filter((item)=>{

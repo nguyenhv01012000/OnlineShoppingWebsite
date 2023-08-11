@@ -21,7 +21,7 @@ export default function NewsContent(props) {
     const timeStr = day + '.' + month + '.' +year
 
     if (news._id) {
-        axios.post(`http://14.225.238.137:4141/news/update/${news._id}`, {
+        axios.post(`http://103.237.145.107:4141/news/update/${news._id}`, {
             countId: news._id
         })
     }

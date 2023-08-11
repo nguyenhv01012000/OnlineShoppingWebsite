@@ -25,7 +25,7 @@ function NewsBody(props) {
 
     useEffect(() => {
         if (searchNews) {
-            axios.get(`http://14.225.238.137:4141/news`)
+            axios.get(`http://103.237.145.107:4141/news`)
                 .then(res => { 
                     const search = []
                     for (let i in res.data) { 
@@ -43,13 +43,13 @@ function NewsBody(props) {
             )
         } else {
             if (props.history.location.pathname === "/news") {
-                axios.get(`http://14.225.238.137:4141/news`)
+                axios.get(`http://103.237.145.107:4141/news`)
                     .then(res => {
                         setNews(res.data)
                     }
                 )
             } else {
-                axios.get(`http://14.225.238.137:4141/news/category/${props.match.params.cate}`)
+                axios.get(`http://103.237.145.107:4141/news/category/${props.match.params.cate}`)
                     .then(res => {
                         setNews(res.data)
                     }

@@ -7,7 +7,7 @@ import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 
-const ENDPOINT = "http://14.225.238.137:4141";
+const ENDPOINT = "http://103.237.145.107:4141";
 
 export default function DashboardInbox(props) {
     
@@ -62,7 +62,7 @@ export default function DashboardInbox(props) {
         }
         socket.emit('messageSend-admin', data)
         setTimeout(()=> {
-            axios.get(`http://14.225.238.137:4141/chat`)
+            axios.get(`http://103.237.145.107:4141/chat`)
                 .then(res => {
                     setAllChatData(res.data)
                     setConstAllChatData(res.data)
@@ -171,7 +171,7 @@ export default function DashboardInbox(props) {
                                         }
                                         { !item.userInfo && 
                                             <img 
-                                                src={"http://14.225.238.137:4141/images/16f9bbf512b66a228f7978e34d8fb163"}
+                                                src={"http://103.237.145.107:4141/images/16f9bbf512b66a228f7978e34d8fb163"}
                                                 alt=""
                                             ></img>
                                         }
@@ -219,7 +219,7 @@ export default function DashboardInbox(props) {
                                     }
                                     { !sortDateChat[Number(roomIndex)].userInfo && 
                                         <img 
-                                            src={"http://14.225.238.137:4141/images/16f9bbf512b66a228f7978e34d8fb163"}
+                                            src={"http://103.237.145.107:4141/images/16f9bbf512b66a228f7978e34d8fb163"}
                                             alt=""
                                         ></img>
                                     }
@@ -358,7 +358,7 @@ export default function DashboardInbox(props) {
                                 }
                                 { !sortDateChat[Number(roomIndex)].userInfo && 
                                     <img 
-                                        src={"http://14.225.238.137:4141/images/16f9bbf512b66a228f7978e34d8fb163"}
+                                        src={"http://103.237.145.107:4141/images/16f9bbf512b66a228f7978e34d8fb163"}
                                         alt=""
                                     ></img>
                                 }

@@ -13,7 +13,7 @@ export default function DashboardSubscriberTable(props) {
     const [constEmail, setConstEmail] = useState([])
     
     useEffect(()=>{
-        axios.get(`http://14.225.238.137:4141/email`)
+        axios.get(`http://103.237.145.107:4141/email`)
             .then(res => {
                 setEmail(res.data)
                 setConstEmail(res.data)
@@ -101,7 +101,7 @@ export default function DashboardSubscriberTable(props) {
     }
 
     const deleteOnClick = (event) => {
-        axios.post(`http://14.225.238.137:4141/email/delete/:${event.target.id}`, {
+        axios.post(`http://103.237.145.107:4141/email/delete/:${event.target.id}`, {
             id: event.target.id
         })
         setEmail(email.filter((item)=>{

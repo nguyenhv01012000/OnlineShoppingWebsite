@@ -13,7 +13,7 @@ export default function DashboardTodoList(props) {
     const [editTodoText, setEditTodoText] = useState("")
 
     useEffect(()=>{
-        axios.get(`http://14.225.238.137:4141/todos`)
+        axios.get(`http://103.237.145.107:4141/todos`)
             .then(res => {
                 setTodoList(res.data)
             }
@@ -36,7 +36,7 @@ export default function DashboardTodoList(props) {
             }
         }
         setTodoList(virtualTodo)
-        axios.post('http://14.225.238.137:4141/todos/update', {
+        axios.post('http://103.237.145.107:4141/todos/update', {
             id: id,
             isDone: isDone
         }) 
@@ -51,9 +51,9 @@ export default function DashboardTodoList(props) {
             todoDate: new Date()
         }
         virtualTodo.push(data)  
-        axios.post('http://14.225.238.137:4141/todos', data)
+        axios.post('http://103.237.145.107:4141/todos', data)
         .then((res) => {   
-            axios.get(`http://14.225.238.137:4141/todos`)
+            axios.get(`http://103.237.145.107:4141/todos`)
                 .then(res2 => {
                     setTodoList(res2.data)
                     setOpenNewTodo(false)
@@ -64,7 +64,7 @@ export default function DashboardTodoList(props) {
 
     const deleteTodo = (event) => { 
         const id = event.target.id
-        axios.post('http://14.225.238.137:4141/todos', {
+        axios.post('http://103.237.145.107:4141/todos', {
             delete: true,
             id: id
         }).then((res)=>{
@@ -89,7 +89,7 @@ export default function DashboardTodoList(props) {
             }
         }
         setTodoList(virtualTodo)
-        axios.post('http://14.225.238.137:4141/todos/update', {
+        axios.post('http://103.237.145.107:4141/todos/update', {
             edit: true,
             id: id,
             todoContent: editTodoText

@@ -13,7 +13,7 @@ export default function Search(props) {
     const [toast, setToast] = useState(false)
 
     useEffect(()=> {
-        axios.get(`http://14.225.238.137:4141/products`)
+        axios.get(`http://103.237.145.107:4141/products`)
             .then(res => {
                 setProducts(res.data)
                 setConstProducts(res.data)
@@ -37,7 +37,7 @@ export default function Search(props) {
 
     const cartClick = (event) => {
         const id = event.target.id
-        axios.get(`http://14.225.238.137:4141/products/${id}`)
+        axios.get(`http://103.237.145.107:4141/products/${id}`)
             .then(res => {
                 addToCart(res.data)
             }

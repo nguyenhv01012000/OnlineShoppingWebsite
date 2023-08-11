@@ -19,7 +19,7 @@ module.exports.postOrder = async function(req, res) {
 		Order.findOne().sort('-orderId').exec(async function(err, item) {
 			const data = {
 				orderId: item.orderId + 1,
-				orderAvatar: req.body.orderAvatar || "http://14.225.238.137:4141/images/16f9bbf512b66a228f7978e34d8fb163",
+				orderAvatar: req.body.orderAvatar || "http://103.237.145.107:4141/images/16f9bbf512b66a228f7978e34d8fb163",
 				orderName: req.body.orderName,
 				orderEmail: req.body.orderEmail,
 				orderPhone: req.body.orderPhone,

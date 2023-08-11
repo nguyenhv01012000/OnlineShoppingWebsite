@@ -35,7 +35,7 @@ module.exports.product = function(req, res) {
 module.exports.postProduct = async function(req, res) {
 	const imgArr = [];
 	req.files.map((item)=>{
-		imgArr.push(`http://14.225.238.137:4141/images/${item.filename}`)
+		imgArr.push(`http://103.237.145.107:4141/images/${item.filename}`)
 	})
 	const data = {
 		productName: req.body.productName,
@@ -74,7 +74,7 @@ module.exports.postProduct = async function(req, res) {
 			to: emailList[i].subscriberEmail,
 			subject: 'Sản phẩm mới tại SOBER SHOP',
 			html: '<p>Sản phẩm mới nè</p>' +
-			`<img src="http://14.225.238.137:4141/email/${emailList[i]._id}/${emailInfo.sendedEmail[emailInfo.sendedEmail.length - 1].emailId}" alt=""></img>`
+			`<img src="http://103.237.145.107:4141/email/${emailList[i]._id}/${emailInfo.sendedEmail[emailInfo.sendedEmail.length - 1].emailId}" alt=""></img>`
 		}
 
 		transporter.sendMail(mailOptions, function(error, info){
@@ -115,7 +115,7 @@ module.exports.updateProduct = async function(req, res) {
 	const imgArr = [];
 	if (req.files) {
 		req.files.map((item)=>{
-			imgArr.push(`http://14.225.238.137:4141/images/${item.filename}`)
+			imgArr.push(`http://103.237.145.107:4141/images/${item.filename}`)
 		})
 	}
 	const img = {

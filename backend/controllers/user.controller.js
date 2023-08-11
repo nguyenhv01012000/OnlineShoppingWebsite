@@ -54,7 +54,7 @@ module.exports.register = async function(req, res) {
 	} catch {}
 
 	const data = {
-		userAvt: "http://14.225.238.137:4141/images/16f9bbf512b66a228f7978e34d8fb163",
+		userAvt: "http://103.237.145.107:4141/images/16f9bbf512b66a228f7978e34d8fb163",
 		userName: req.body.userName,
 		userTinh: "",
 		userHuyen: "",
@@ -77,7 +77,7 @@ module.exports.updateUser = async function(req, res) {
 	if (req.files.length > 0) {
 		const imgArr = [];
 		req.files.map((item)=>{
-			imgArr.push(`http://14.225.238.137:4141/images/${item.filename}`)
+			imgArr.push(`http://103.237.145.107:4141/images/${item.filename}`)
 		})
 		const img = {
 			userAvt: imgArr[0]

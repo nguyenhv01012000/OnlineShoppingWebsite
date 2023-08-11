@@ -17,7 +17,7 @@ module.exports.deleteCollection = async function(req, res) {
 module.exports.postCollection = async function(req, res) {
 	const imgArr = [];
 	req.files.map((item)=>{
-		imgArr.push(`http://14.225.238.137:4141/images/${item.filename}`)
+		imgArr.push(`http://103.237.145.107:4141/images/${item.filename}`)
     })
 	const data = {
 		collectionBanner: imgArr[0],
@@ -34,7 +34,7 @@ module.exports.updateCollection = function(req, res) {
     const imgArr = [];
 	if (req.files.length > 0) {
 		req.files.map((item)=>{
-			imgArr.push(`http://14.225.238.137:4141/images/${item.filename}`)
+			imgArr.push(`http://103.237.145.107:4141/images/${item.filename}`)
 		})
         const img = {
             collectionBanner: imgArr[0]

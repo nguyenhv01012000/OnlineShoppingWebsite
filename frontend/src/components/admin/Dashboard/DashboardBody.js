@@ -49,32 +49,32 @@ export default function DashboardBody(props) {
     }
     
     useEffect(()=> {
-        Axios.get(`http://14.225.238.137:4141/products/${props.productId}`)
+        Axios.get(`http://103.237.145.107:4141/products/${props.productId}`)
             .then(res => {
                 setProduct(res.data)
             } 
         )
-        Axios.get(`http://14.225.238.137:4141/news/${props.productId}`)
+        Axios.get(`http://103.237.145.107:4141/news/${props.productId}`)
             .then(res => {
                 setNews(res.data)
             } 
         )
-        Axios.get(`http://14.225.238.137:4141/users/list/${props.productId}`)
+        Axios.get(`http://103.237.145.107:4141/users/list/${props.productId}`)
             .then(res => {
                 setUser(res.data)
             } 
         )
-        Axios.get(`http://14.225.238.137:4141/order/${props.productId}`)
+        Axios.get(`http://103.237.145.107:4141/order/${props.productId}`)
             .then(res => {
                 setOrder(res.data)
             } 
         )
-        Axios.get(`http://14.225.238.137:4141/collection/${props.productId}`)
+        Axios.get(`http://103.237.145.107:4141/collection/${props.productId}`)
             .then(res => {
                 setCollection(res.data)
             } 
         )
-        Axios.get(`http://14.225.238.137:4141/email/${props.productId}`)
+        Axios.get(`http://103.237.145.107:4141/email/${props.productId}`)
             .then(res => {
                 setEmail(res.data)
             } 

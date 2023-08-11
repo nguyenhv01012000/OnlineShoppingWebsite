@@ -16,7 +16,7 @@ export default function DashboardCollectionEdit(props) {
     const collection = props.collection
 
     useEffect(()=>{
-        axios.get(`http://14.225.238.137:4141/products`)
+        axios.get(`http://103.237.145.107:4141/products`)
             .then(res => {
                 setProduct(res.data)
             }
@@ -45,7 +45,7 @@ export default function DashboardCollectionEdit(props) {
         })
         formData.append("productList", JSON.stringify(productList));
         formData.append("collectionName", collectionName);
-        axios.post(`http://14.225.238.137:4141/collection/update/${collection._id}`, formData, config)
+        axios.post(`http://103.237.145.107:4141/collection/update/${collection._id}`, formData, config)
         .then(()=>{
             props.setCloseEditFunc(false);
             props.setToastFunc(true);

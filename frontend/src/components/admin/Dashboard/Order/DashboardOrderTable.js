@@ -14,7 +14,7 @@ export default function DashboardUserTable(props) {
     const [constOrder, setConstOrder] = useState([])
     
     useEffect(()=>{
-        axios.get(`http://14.225.238.137:4141/order`)
+        axios.get(`http://103.237.145.107:4141/order`)
             .then(res => {
                 setOrder(res.data)
                 setConstOrder(res.data)
@@ -101,7 +101,7 @@ export default function DashboardUserTable(props) {
 
     const deleteOnClick = (event) => {
         const id = event.target.id
-        axios.post(`http://14.225.238.137:4141/order/delete/:${event.target.id}`, {
+        axios.post(`http://103.237.145.107:4141/order/delete/:${event.target.id}`, {
             id: id
         }).then(()=>{
             setOrder(order.filter((item)=>{

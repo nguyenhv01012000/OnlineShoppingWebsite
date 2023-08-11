@@ -21,7 +21,7 @@ module.exports.cate = function(req, res) {
 module.exports.postNews = async function(req, res) {
 	const imgArr = [];
 	req.files.map((item)=>{
-		imgArr.push(`http://14.225.238.137:4141/images/${item.filename}`)
+		imgArr.push(`http://103.237.145.107:4141/images/${item.filename}`)
 	})
 	const data = {
 		newImg: imgArr[0],
@@ -69,7 +69,7 @@ module.exports.updateNews = async function(req, res) {
 		const imgArr = [];
 		if (req.files) {
 			req.files.map((item)=>{
-				imgArr.push(`http://14.225.238.137:4141/images/${item.filename}`)
+				imgArr.push(`http://103.237.145.107:4141/images/${item.filename}`)
 			})
 		}
 		const img = {

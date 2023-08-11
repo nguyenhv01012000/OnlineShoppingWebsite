@@ -13,7 +13,7 @@ export default function DashboardLocation(props) {
     const [location, setLocation] = useState([])
 
     useEffect(()=>{
-        axios.get(`http://14.225.238.137:4141/vietnam`)
+        axios.get(`http://103.237.145.107:4141/vietnam`)
             .then(res => {
                 setLocation(res.data[0].tinh)
             }

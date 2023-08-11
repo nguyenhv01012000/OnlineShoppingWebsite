@@ -8,7 +8,7 @@ import { faEnvelope, faFileInvoice, faHome, faInbox, faNewspaper, faShoppingBag,
 import socketIOClient from "socket.io-client" 
 import Axios from 'axios'
 import { withRouter } from 'react-router-dom'
-const ENDPOINT = "http://14.225.238.137:4141";
+const ENDPOINT = "http://103.237.145.107:4141";
 
 function Dashboard(props) {
     const menuItems = [
@@ -70,7 +70,7 @@ function Dashboard(props) {
 
     useEffect(()=>{
         if (localStorage.getItem('token')) {
-            Axios.get(`http://14.225.238.137:4141/users/${localStorage.getItem('user-id')}`, { 
+            Axios.get(`http://103.237.145.107:4141/users/${localStorage.getItem('user-id')}`, { 
                 headers: {"authorization" : `Bearer ${localStorage.getItem('token')}`}
             })
             .then(res => {

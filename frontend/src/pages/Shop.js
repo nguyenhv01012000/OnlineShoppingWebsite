@@ -23,7 +23,7 @@ function Shop(props) {
 
     useEffect(() => {
         if (sex === "shop") { 
-            axios.get(`http://14.225.238.137:4141/products`)
+            axios.get(`http://103.237.145.107:4141/products`)
             .then(res => {   
                 
                 const virtualCate = [...res.data] 
@@ -50,7 +50,7 @@ function Shop(props) {
             })
         } else {
             sex.toLowerCase() === "men" ? sex = "man" : sex = "woman"
-            axios.get(`http://14.225.238.137:4141/products`)
+            axios.get(`http://103.237.145.107:4141/products`)
                 .then(res => {
                     const virtualCate = []
                     for (let i in res.data) {

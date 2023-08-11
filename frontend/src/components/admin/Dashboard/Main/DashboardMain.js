@@ -27,7 +27,7 @@ export default function DashboardMain() {
     const [incomeMonthPercent, setIncomeMonthPercent] = useState({})
 
     useEffect(() => {
-        axios.get(`http://14.225.238.137:4141/products`)
+        axios.get(`http://103.237.145.107:4141/products`)
             .then(res => {
                 setProducts(res.data)
                 let virtualProducts = [...res.data]
@@ -43,17 +43,17 @@ export default function DashboardMain() {
                 setTopProductSales(virtualProducts2)
             }
             )
-        axios.get(`http://14.225.238.137:4141/users/list`)
+        axios.get(`http://103.237.145.107:4141/users/list`)
             .then(res => {
                 setUser(res.data)
             }
             )
-        axios.get(`http://14.225.238.137:4141/email`)
+        axios.get(`http://103.237.145.107:4141/email`)
             .then(res => {
                 setEmail(res.data)
             }
             )
-        axios.get(`http://14.225.238.137:4141/order`)
+        axios.get(`http://103.237.145.107:4141/order`)
             .then(res => {
                 setOrder(res.data)
                 const topCustomer2 = Object.values(res.data.reduce((a, { orderEmail, orderName, orderTotal, orderAvatar }) => {

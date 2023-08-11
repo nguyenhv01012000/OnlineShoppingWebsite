@@ -34,7 +34,7 @@ function NewsBodyWidget(props) {
     }
 
     useEffect(() => {
-        axios.get(`http://14.225.238.137:4141/news`)
+        axios.get(`http://103.237.145.107:4141/news`)
             .then(res => {
                 setNews(res.data)
             }

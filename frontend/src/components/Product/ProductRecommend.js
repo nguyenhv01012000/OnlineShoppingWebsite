@@ -12,7 +12,7 @@ export default function ProductRecommend(props) {
     }
 
     useEffect(() => {
-        axios.get(`http://14.225.238.137:4141/products`)
+        axios.get(`http://103.237.145.107:4141/products`)
             .then(res => {
                 setProducts(res.data)
             }
