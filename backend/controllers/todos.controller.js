@@ -8,10 +8,8 @@ module.exports.index = async function(req, res) {
 module.exports.postTodo = async function(req, res) {
 	if (req.body.delete) {
 		await Todos.findByIdAndRemove({_id: req.body.id})
-		res.status(200).send("ok");
 	} else {
 		await Todos.create(req.body);
-		res.status(200).send("ok");
 	}
 	res.status(200).send("ok");
 };
@@ -23,7 +21,6 @@ module.exports.updateTodo = async function(req, res) {
 			function (error) {
 			}
 		)
-		res.status(200).send("ok");
 	} else {
 		Todos.findByIdAndUpdate(
 			{_id: req.body.id},
@@ -31,7 +28,6 @@ module.exports.updateTodo = async function(req, res) {
 			function (error) {
 			}
 		)
-		res.status(200).send("ok");
 	}
 	res.status(200).send("ok");
 };
