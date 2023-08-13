@@ -44,29 +44,26 @@ function OpenChatBtn(props) {
                 if (res.data.length > 0)
                     setChatList(res.data[0].chatContent)
             }
-        )    
+        ) 
+        if(sessionStorage.getItem('chat-id')){
+            socket.emit('join', {
+                sessionId: sessionStorage.getItem('chat-id'),
+                isAdmin: false
+            })
+            socket.on('sendFirstInfo', (data)=> {
+                if (data.length > 0) setChatList(data[0].chatContent)
+            })
+            socket.on('thread', (data)=> {
+                setChatList(data.chatContent)
+            })
+            socket.on("admin-msg", function(data) {
+                setChatList(chatList=> [...chatList, data]);
+                setTimeout(()=>{
+                    messageRef.current.scrollIntoView({ behavior: "smooth" })
+                }, 100)
+            })
+        }   
     }, [userInfo])
-
-
-    
-    useEffect(() => {
-        socket.emit('join', {
-            sessionId: sessionStorage.getItem('chat-id'),
-            isAdmin: false
-        })
-        socket.on('sendFirstInfo', (data)=> {
-            if (data.length > 0) setChatList(data[0].chatContent)
-        })
-        socket.on('thread', (data)=> {
-            setChatList(data.chatContent)
-        })
-        socket.on("admin-msg", function(data) {
-            setChatList(chatList=> [...chatList, data]);
-            setTimeout(()=>{
-                messageRef.current.scrollIntoView({ behavior: "smooth" })
-            }, 100)
-        })
-    }, [])
 
     const handleChange = (event) => {
         setInputValue({...inputValue , [event.target.name]: event.target.value})
